@@ -1,11 +1,17 @@
-import { Container } from "./styles.js"
+import { Container } from './styles'
+
+import { Button } from '../../components/Button'
 
 export function Details() {
-
-  return(
+  return (
     <Container>
-    <h1>Olá</h1>
-    <span>Caio andrey</span>
+      <h1>Hello World!</h1>
+      <span>cdaweawedawd</span>
+
+      <Button title="Login" loading />
+      <Button title="Cadastrar"/>
+      <Button title="Voltar"/>
+      
     </Container>
   )
 }
